@@ -6,6 +6,7 @@ import seaborn as sns
 # Load the dataset from a CSV file
 df = pd.read_csv('airport_flights.csv')
 
+# Display the first 5 rows of the DataFrame to understand its structure
 print(df.head())
 
 print(df.info())  # Data types and non-null counts
