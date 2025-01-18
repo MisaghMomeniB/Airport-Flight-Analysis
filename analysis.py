@@ -3,6 +3,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 import seaborn as sns
 
+# Load the dataset from a CSV file
 df = pd.read_csv('airport_flights.csv')
 
 print(df.head())
